@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d2d2d2;
+  font-family: "Roboto", "Poppins", "M PLUS Rounded 1c", "Varela Round";
+}
+
+header {
+  font-family: "Varela Round", "M PLUS Rounded 1c", "Poppins", "Roboto";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+header .icon {
+  margin-left: 45px;
+  height: 40px;
+  width: 40px;
+  background-image: url("images/topbar-icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+header nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #323232;
+}
+header ul {
+  margin-left: 30px;
+  display: flex;
+  list-style: none;
+}
+header li {
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+header li:hover {
+  background: #232323;
+}
+header button {
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #464646;
+  font: inherit;
+  cursor: pointer;
+}
+header button:hover {
+  background: #232323;
+}
+header input {
+  margin-left: 40px;
+  padding: 10px 15px;
+  background: #969696;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 20px -2px black;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+.picture1 {
+  background-image: url("images/kaisa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #464646;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.picture1:hover {
+  transform: rotateZ(0);
+}
+
+.picture2 {
+  background-image: url("images/ezreal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #464646;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.picture2:hover {
+  transform: rotateZ(0);
+}
+
+.picture3 {
+  background-image: url("images/jhin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #464646;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.picture3:hover {
+  transform: rotateZ(0);
+}
+
+.picture4 {
+  background-image: url("images/kassadin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #464646;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.picture4:hover {
+  transform: rotateZ(0);
+}
+
+.picture5 {
+  background-image: url("images/sion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #464646;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.picture5:hover {
+  transform: rotateZ(0);
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+main header {
+  display: flex;
+  justify-content: space-around;
+}
+main .main-article {
+  width: 550px;
+  height: 500px;
+  background: #828282;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+main .main-article header {
+  margin-top: 15px;
+}
+main .main-article header section {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #464646;
+}
+main .main-article header h2 {
+  margin-top: 20px;
+  color: #1e1e1e;
+}
+main .main-article .picture1 {
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 120px;
+  width: 120px;
+}
+main .main-article .paragraph {
+  width: 90%;
+  margin: 70% auto auto auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #323232;
+  font-family: "Roboto", "Poppins", "M PLUS Rounded 1c", "Varela Round";
+  font-weight: 500;
+}
+main .main-article a {
+  margin-left: 5%;
+  margin-top: 30px;
+  color: black;
+  text-decoration: none;
+}
+main .main-article a:hover {
+  text-decoration: underline;
+}
+main .main-article .name-link {
+  margin-left: 0;
+  color: #0f0f0f;
+  font-size: 1.2rem;
+}
+main .newsletter {
+  width: 300px;
+  height: 500px;
+  background: #b4b4b4;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+main .newsletter i {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+main .newsletter .separator {
+  margin: 30px auto;
+  width: 30%;
+  height: 10px;
+  border-bottom: 1px solid black;
+}
+main .newsletter p {
+  font-family: "Roboto", "Poppins", "M PLUS Rounded 1c", "Varela Round";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #323232;
+}
+main .newsletter a {
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  font-size: 1.7rem;
+}
+main .newsletter a:hover {
+  text-decoration: underline;
+}
+main .articles-separator {
+  width: 13%;
+  margin: 100px auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+}
+main .articles {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+main .article {
+  width: 450px;
+  height: 500px;
+  padding: 35px 0;
+  background: #828282;
+  border-radius: 10px;
+}
+main .article header {
+  display: flex;
+  justify-content: flex-start;
+}
+main .article header section {
+  margin-left: 15px;
+  color: #464646;
+  font-size: 1.1rem;
+}
+main .article header h2 {
+  margin-top: 15px;
+  color: #1e1e1e;
+}
+main .article .pic-container {
+  margin-left: 30px;
+}
+main .article .pic {
+  width: 100px;
+  height: 100px;
+}
+main .article .paragraph {
+  margin: 40px 5%;
+  font-size: 1.2rem;
+  color: #323232;
+}
+main .article a {
+  margin-left: 5%;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Varela Round", "M PLUS Rounded 1c", "Poppins", "Roboto";
+  font-size: 1.2rem;
+}
+main .article a:hover {
+  text-decoration: underline;
+}
+main .article .name-link {
+  margin-left: 2%;
+  color: #0f0f0f;
+  font-size: 1.1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #323232;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #7d7d7d;
+}
+footer ul {
+  margin-top: 30px;
+  list-style: disc;
+  display: flex;
+}
+footer li {
+  margin-left: 30px;
+  cursor: pointer;
+}
+footer li:hover {
+  color: #4b4b4b;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+$rgb35: rgb(35, 35, 35);
+$rgb50: rgb(50, 50, 50);
+$font-varela: 'Varela Round', 'M PLUS Rounded 1c', 'Poppins', 'Roboto';
+$font-roboto: 'Roboto', 'Poppins', 'M PLUS Rounded 1c', 'Varela Round';
+
+$pics-map: (
+  1: url('images/kaisa.jpg'),
+  2: url('images/ezreal.jpg'),
+  3: url('images/jhin.jpg'),
+  4: url('images/kassadin.jpg'),
+  5: url('images/sion.jpg'),
+);
+
+@mixin appending--pics() {
+  @each $number, $image in $pics-map {
+    .picture#{$number} {
+      background-image: $image;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 3px solid rgb(70, 70, 70);
+      border-radius: 10px;
+      transform: rotate(-15deg);
+      transform-origin: left bottom;
+      transition: .3s;
+      cursor: pointer;
+
+      &:hover {
+        transform: rotateZ(0);
+      }
+    }
+  }
+}
